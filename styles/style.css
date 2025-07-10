@@ -17,7 +17,9 @@ li{
 a{
     text-decoration: none;
 }
-
+body{
+    background-color: #F5F8FF;
+}
 main{
     max-width: 1140px;
     margin: 0px auto;
@@ -117,8 +119,6 @@ nav ul {
     padding: 50px;
 }
 
-
-
 .statistics{
     display: flex;
     justify-content: space-evenly;
@@ -137,6 +137,61 @@ nav ul {
     font-family: "Inter", sans-serif;
 }
 
+/* Review Section */
+.review-container{
+text-align: center;
+margin-top: 137px;
+margin-bottom: 100px;
+
+}
+
+.all-review{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+.review-card{
+    padding: 24px;
+    max-width: 366px;
+    border-radius: 10px;
+    text-align: start;
+    background-color: #FAFCFF;
+}
+.stars{
+    margin-bottom: 24px;
+}
+.review-content{
+    margin-bottom:  24px;
+}
+.review-title{
+    font-family: "Inter", sans-serif;
+    color: #1E1E1E;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.comment{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: #1E1E1E;
+
+}
+.profile{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+.profile-pic{
+    border-radius: 50%;
+}
+.user-name{
+    font-weight: bold;
+    color: #757575;
+    font-size: 17px;
+}
+.date{
+    color: #B3B3B3;
+}
 /* Contuct section */
 
 
