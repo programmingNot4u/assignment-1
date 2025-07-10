@@ -1,0 +1,94 @@
+/* universal style */
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.raleway-fontfamily {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Shared style  */
+
+.primary-btn{
+    color: white;
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16;
+    padding: 12px 36px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+
+
+/* Nav Section */
+header{
+    background-image: url("../Assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: 50px 0px;
+   
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-logo{
+    color: #4E47FF;
+    font-family: "Inter", sans-serif;
+    font-size: 34px;
+    font-weight: 800;
+}
+/* Banner Section */
+.banner-container{
+    margin: 0px auto;
+    text-align: center;
+    max-width: 905px;
+    padding: 152px;
+
+
+}
+
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 37px;
+    color: #252432;
+
+
+}
+
+/* Action SEction */
+
+
+
+
+/* Productive User Section */
+
+
+
+
+
+/* Contuct section */
+
+
+/* Footer Section */
