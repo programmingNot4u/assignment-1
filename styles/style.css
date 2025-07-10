@@ -18,6 +18,11 @@ a{
     text-decoration: none;
 }
 
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
 /* Shared style  */
 
 .primary-btn{
@@ -30,7 +35,11 @@ a{
     text-align: center;
     
 }
-
+.section-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
 
 
 /* Nav Section */
@@ -78,9 +87,26 @@ nav ul {
 }
 
 /* Action SEction */
-
-
-
+.action-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 116px;
+}
+.action-detials{
+    text-align: start;
+    max-width: 512px;
+}
+.action-detials p{
+    font: 24px;
+    color: #252432;
+}
+.action-detials *{
+    margin-bottom: 23px;
+}
+.wc-mini{
+    border-radius: 40px;
+}
 
 /* Productive User Section */
 
