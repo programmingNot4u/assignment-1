@@ -220,7 +220,7 @@ margin-bottom: 100px;
     justify-content: space-between;
     align-items: center;
     margin-top: 90px;
-    
+    padding-bottom: 71px;
     
 }
 .form-contianer{
@@ -244,6 +244,7 @@ form input, form textarea{
     border: none;
     min-width: 100%;
     box-sizing: border-box;
+    font-size: 17px;
     
 }
 form label{
@@ -253,3 +254,34 @@ form label{
 
 }
 /* Footer Section */
+footer{
+    background-color: #FAFCFF;
+}
+.footer-container{
+    text-align: center;
+    max-width: 531px;
+    margin: 0px auto;
+    padding: 103px 0px;
+    
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-evenly;
+    
+    margin-top: 20px;
+
+}
+.footer-links a{
+    color:  #8987A1;
+}
+
+.footer-logo{
+    font-family: "Inter", sans-serif;
+    font-size: 100px;
+    color: #4E47FF;
+}
+
+footer p{
+    color: #8987A1;
+}
