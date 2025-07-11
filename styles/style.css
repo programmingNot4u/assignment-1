@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
     
+    
 }
 
 .raleway-fontfamily {
@@ -26,7 +27,9 @@ main{
 }
 
 /* Shared style  */
-
+.display-block{
+    display: block;
+}
 .primary-btn{
     color: white;
     background-color: #4E47FF;
@@ -192,7 +195,61 @@ margin-bottom: 100px;
 .date{
     color: #B3B3B3;
 }
+
+/* focus Section */
+
+.focus-section {
+    display: flex;
+    flex-direction: column;
+    padding: 71px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.focus-section *{
+    margin-bottom: 20px;
+}
+.wc-big{
+    border-radius: 30px;
+}
+
 /* Contuct section */
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+    
+    
+}
+.form-contianer{
+    width: 496px;
+    text-align: start;
+    
+    
+}
+.form-contianer *{
+    display: block;
+    
+    margin-bottom: 10px;
+}
+.contact-container h1{
+    font-size: 97px;
+    font-weight: bold;
+}
+form input, form textarea{
+    padding: 20px 0px 20px 32px;
+    border-radius: 5px;
+    border: none;
+    min-width: 100%;
+    box-sizing: border-box;
+    
+}
+form label{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
 
-
+}
 /* Footer Section */
